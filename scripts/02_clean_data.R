@@ -17,11 +17,16 @@ clean_data$Number_of_deportees <- as.numeric(clean_data$Number_of_deportees)
 clean_data$Number_of_victims <- gsub("[^0-9.]", "", clean_data$Number_of_victims)
 clean_data$Number_of_victims <- as.numeric(clean_data$Number_of_victims)
 
+#adds the zeroes
 clean_data$Number_of_deportees[-1] <- clean_data$Number_of_deportees[-1] * 1000
 clean_data$Number_of_victims[-1] <- clean_data$Number_of_victims[-1] * 1000
 
 clean_data$Number_of_deportees[1] <- clean_data$Number_of_deportees[1] * 1000000
 clean_data$Number_of_victims[1] <- clean_data$Number_of_victims[1] * 1000000 
+
+#formatting with commas for trailing zeroes
+clean_data$Number_of_deportees <- format(clean_data$Number_of_deportees, big.mark = ",")
+clean_data$Number_of_victims <- format(clean_data$Number_of_victims, big.mark = ",")
 
 
 write.csv(clean_data, 'data/analysis_data/analyis_data.csv')
