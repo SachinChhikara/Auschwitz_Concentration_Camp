@@ -9,5 +9,20 @@ clean_data <-
   select(X1, X2, X4) |>
   rename(Nationality = X1, Number_of_deportees = X2, Number_of_victims = X4)
 
+
+# Remove non-numeric characters and convert to numeric
+clean_data$Number_of_deportees <- gsub("[^0-9.]", "", clean_data$Number_of_deportees)
+clean_data$Number_of_deportees <- as.numeric(clean_data$Number_of_deportees)
+
+clean_data$Number_of_victims <- gsub("[^0-9.]", "", clean_data$Number_of_victims)
+clean_data$Number_of_victims <- as.numeric(clean_data$Number_of_victims)
+
+clean_data$Number_of_deportees[-1] <- clean_data$Number_of_deportees[-1] * 1000
+clean_data$Number_of_victims[-1] <- clean_data$Number_of_victims[-1] * 1000
+
+clean_data$Number_of_deportees[1] <- clean_data$Number_of_deportees[1] * 1000000
+clean_data$Number_of_victims[1] <- clean_data$Number_of_victims[1] * 1000000 
+
+
 write.csv(clean_data, 'data/analysis_data/analyis_data.csv')
 
