@@ -2,7 +2,7 @@ library(shiny)
 library(ggplot2)
 
 # Load and clean the data
-data <- read.csv("../data/analysis_data/analyis_data.csv")
+data <- read.csv("data/analysis_data/analyis_data.csv")
 
 data$Number_of_deportees <- as.numeric(gsub(",", "", data$Number_of_deportees))
 data$Number_of_victims <- as.numeric(gsub(",", "", data$Number_of_victims))
