@@ -6,7 +6,9 @@ format: pdf
 
 ## Introduction
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+World war II, where many different nationality were considered inferior to the Aryan
+race(German people), which cause many to captured and send to Concentration Camp.
+One of the most popular concentration camp was Auschwitz, where many were captured and killed. In this paper, we will go over the motivation to view and write about this horrific event that occurred in history and observe the data about this.
 
 ## Motivation
 
