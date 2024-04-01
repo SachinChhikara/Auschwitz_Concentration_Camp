@@ -6,26 +6,13 @@ format: pdf
 
 ## Introduction
 
-World war II, where many different nationality were considered inferior to the Aryan
-race(German people), which cause many to captured and send to Concentration Camp.
+World War II, where many different nationality were considered inferior to the Aryan
+race (German people), which cause many to captured and send to Concentration Camp.
 One of the most popular concentration camp was Auschwitz, where many were captured and killed. In this paper, we will go over the motivation to view and write about this horrific event that occurred in history and observe the data about this.
 
 ## Motivation
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
-
-```{r}
-1 + 1
-```
-
-You can add options to executable code like this 
-
-```{r}
-#| echo: false
-2 * 2
-```
-
-The `echo: false` option disables the printing of code (only output is displayed).
+It is important before we get into the data to view why we are looking such a disturbing event that almost 100 years ago. What happen in concentration camps is extreme case of racism and discrimination, and it shows that effects of it. Most cases of discrimination in modern society doesn't lead to this, but still it shows why discrimination and racism are such a bad thing so that we make sure that history does not repeat itself again.
 
 ## Observation
 
