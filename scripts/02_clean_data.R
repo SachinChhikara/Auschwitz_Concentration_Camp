@@ -1,5 +1,4 @@
-library(tidyr)
-library(dplyr)
+library(tidyverse)
 
 raw_data <- read.csv('data/raw_data/auschwitz_camp_webscrape_data.csv')
 
