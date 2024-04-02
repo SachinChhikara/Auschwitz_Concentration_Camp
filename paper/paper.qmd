@@ -3,17 +3,57 @@ title: "Aushwitz Concentration Camp"
 author: "Sachin Chhikara"
 format: pdf
 ---
+```{r}
+#| include: false
+#| warning: false
+#| message: false
 
-## Introduction
+
+library(tidyverse)
+library(knitr)
+```
+
+
+# Introduction
 
 World War II, where many different nationality were considered inferior to the Aryan
 race (German people), which cause many to captured and send to Concentration Camp.
-One of the most popular concentration camp was Auschwitz, where many were captured and killed. In this paper, we will go over the motivation to view and write about this horrific event that occurred in history and observe the data about this.
+One of the most popular concentration camp was Auschwitz, where many were captured and killed. In this paper, we will go over the motivation to view and write about this horrific event that occurred in history and then we are going to look at the data.
 
-## Motivation
+# Motivation
 
 It is important before we get into the data to view why we are looking such a disturbing event that almost 100 years ago. What happen in concentration camps is extreme case of racism and discrimination, and it shows that effects of it. Most cases of discrimination in modern society doesn't lead to this, but still it shows why discrimination and racism are such a bad thing so that we make sure that history does not repeat itself again.
 
-## Observation
+# Data
 
-## Conclusion
+There were 1.3 million people deported and the Jews make up 85% (1.1 million) of those 1.1 million, 1 million of them were murdered. That means around 10 thousand Jews were able to survive.
+
+The second most oppressed group the Poles make up 140 thousands were deported and half them happen to survive.  
+
+The Other groups which primarily consists of Czeh, Belraussians, Germans and French, Russians, they were 25 thousand of them deported and similar to the poles roughly half of them happen to survive.
+
+Interesting thing we notice is that there are people deported in the Other groups, then Roma but more of the Roma (21 thousand) were murdered compared to the Other groups (12 thousand).
+
+And the Soviet POWs also followed the same trend as Roma as there more Soviet POWs murdered then Other groups, 14 thousand and 12 thousand respectively. 
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| fig-cap: "Other groups is mainly comprised of Czech (9 thousand), followed by: Belarussians (6 thousand), Germans (4 thousand), French (4 thousand), Russians (1.5 thousand)"
+knitr::include_graphics(file.path(here::here(),"figures/deportees.png")) 
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| fig-cap: "Other groups is mainly comprised of Czech (9 thousand), followed by: Belarussians (6 thousand), Germans (4 thousand), French (4 thousand), Russians (1.5 thousand)"
+knitr::include_graphics(file.path(here::here(),"figures/victims.png")) 
+```
+
+# Conclusion
+
+In conclusion, we can see that the horrors of World War II impacted the Jews as many of them captured and killed. But it was not just Jews were affected many other nationalities were affected just ad Poles, Romas and many other. This data showed how extreme discrimination and racism can lead to senseless killing of races. It is important to remember that in order to prevent something like this in the future we need to treat every race with equality and love.
