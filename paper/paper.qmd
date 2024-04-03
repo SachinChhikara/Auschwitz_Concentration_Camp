@@ -30,7 +30,7 @@ It is important before we get into the data to view why we are looking such a di
 
 # Data
 
-There were 1.3 million people deported and the Jews make up 85% (1.1 million) of those 1.1 million, 1 million of them were murdered. That means around 10 thousand Jews were able to survive.
+The data we used comes from a website: `http://70.auschwitz.org/index.php?option=com_content&view=article&id=89&Itemid=173&lang=en`. There were 1.3 million people deported and the Jews make up 85% (1.1 million) of those 1.1 million, 1 million of them were murdered. That means around 10 thousand Jews were able to survive.
 
 The second most oppressed group the Poles make up 140 thousands were deported and half them happen to survive.  
 
